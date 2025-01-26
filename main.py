@@ -51,28 +51,21 @@ def custom_collate_fn(
     allowed_max_length=None,
     device="cpu"
 ):
-    # Find the longest sequence in the batch
     batch_max_length = max(len(item)+1 for item in batch)
 
-    # Pad and prepare inputs and targets
     inputs_lst, targets_lst = [], []
 
     for item in batch:
         new_item = item.copy()
-        # Add an <|endoftext|> token
         new_item += [pad_token_id]
-        # Pad sequences to max_length
         padded = new_item + [pad_token_id] * (batch_max_length - len(new_item))
-        inputs = torch.tensor(padded[:-1])  # Truncate the last token for inputs
-        targets = torch.tensor(padded[1:])  # Shift +1 to the right for targets
-
-        # New: Replace all but the first padding tokens in targets by ignore_index
+        inputs = torch.tensor(padded[:-1])
+        targets = torch.tensor(padded[1:])
         mask = targets == pad_token_id
         indices = torch.nonzero(mask).squeeze()
         if indices.numel() > 1:
             targets[indices[1:]] = ignore_index
 
-        # New: Optionally truncate to maximum sequence length
         if allowed_max_length is not None:
             inputs = inputs[:allowed_max_length]
             targets = targets[:allowed_max_length]
@@ -243,7 +236,6 @@ def main(test_mode=False):
     print("Loaded model:", CHOOSE_MODEL)
     print(50*"-")
 
-    # Log initial losses
     with torch.no_grad():
         train_loss = calc_loss_loader(train_loader, model, device, num_batches=5)
         val_loss = calc_loss_loader(val_loader, model, device, num_batches=5)
@@ -267,21 +259,17 @@ def main(test_mode=False):
     execution_time_minutes = (end_time - start_time) / 60
     print(f"Training completed in {execution_time_minutes:.2f} minutes.")
 
-    # Log losses and learning rates for TensorBoard
     for epoch in range(num_epochs):
         writer.add_scalar('Loss/train', train_losses[epoch], epoch)
         writer.add_scalar('Loss/val', val_losses[epoch], epoch)
 
-    # Optionally log learning rate
     for epoch in range(num_epochs):
         writer.add_scalar('Learning Rate', optimizer.param_groups[0]['lr'], epoch)
 
-    # Plot losses
     epochs_tensor = torch.linspace(0, num_epochs, len(train_losses))
     plot_losses(epochs_tensor, tokens_seen, train_losses, val_losses)
     print(50*"-")
 
-    # Evaluation on the test set...
     print("Generating responses")
     for i, entry in tqdm(enumerate(test_data), total=len(test_data)):
 
@@ -301,7 +289,7 @@ def main(test_mode=False):
 
     test_data_path = "instruction-data-with-response-standalone.json"
     with open(test_data_path, "w") as file:
-        json.dump(test_data, file, indent=4)  # "indent" for pretty-printing
+        json.dump(test_data, file, indent=4)
     print(f"Responses saved as {test_data_path}")
 
     file_name = f"{re.sub(r'[ ()]', '', CHOOSE_MODEL) }-sft-standalone.pth"
