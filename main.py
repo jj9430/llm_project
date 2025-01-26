@@ -5,12 +5,12 @@ import os
 import re
 import time
 import urllib
-import matplotlib.pyplot as plt
 import tiktoken
 import torch
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 from torch.utils.tensorboard import SummaryWriter
+import plotly.graph_objects as go 
 
 from gpt_download import download_and_load_gpt2
 from transformer_model import (
@@ -51,7 +51,7 @@ def custom_collate_fn(
     allowed_max_length=None,
     device="cpu"
 ):
-    batch_max_length = max(len(item)+1 for item in batch)
+    batch_max_length = max(len(item) + 1 for item in batch)
 
     inputs_lst, targets_lst = [], []
 
@@ -80,7 +80,6 @@ def custom_collate_fn(
 
 
 def download_and_load_file(file_path, url):
-
     if not os.path.exists(file_path):
         with urllib.request.urlopen(url) as response:
             text_data = response.read().decode("utf-8")
@@ -106,22 +105,39 @@ def format_input(entry):
 
 
 def plot_losses(epochs_seen, tokens_seen, train_losses, val_losses):
-    fig, ax1 = plt.subplots(figsize=(12, 6))
+    interactive_fig = go.Figure()
 
-    ax1.plot(epochs_seen, train_losses, label="Training loss")
-    ax1.plot(epochs_seen, val_losses, linestyle="-.", label="Validation loss")
-    ax1.set_xlabel("Epochs")
-    ax1.set_ylabel("Loss")
-    ax1.legend(loc="upper right")
+    interactive_fig.add_trace(go.Scatter(
+        x=epochs_seen, y=train_losses, mode='lines', name="Training Loss", line=dict(color='blue')
+    ))
+    interactive_fig.add_trace(go.Scatter(
+        x=epochs_seen, y=val_losses, mode='lines', name="Validation Loss", line=dict(color='red', dash='dash')
+    ))
 
-    ax2 = ax1.twiny() 
-    ax2.plot(tokens_seen, train_losses, alpha=0)
-    ax2.set_xlabel("Tokens seen")
+    interactive_fig.update_layout(
+        xaxis2=dict(
+            overlaying="x",
+            side="top",
+            title="Tokens Seen",
+            showgrid=False,
+        ),
+        title="Training and Validation Loss with Tokens Seen",
+        xaxis=dict(title="Epochs"),
+        yaxis=dict(title="Loss"),
+        template="plotly_dark", 
+    )
 
-    fig.tight_layout()
-    plot_name = "losses_plot.pdf"
-    print(f"Plot saved as {plot_name}")
-    plt.savefig(plot_name)
+    interactive_fig.add_trace(go.Scatter(
+        x=tokens_seen, y=train_losses, mode='lines', name="Tokens Seen (Training Loss)",
+        line=dict(color='green', width=0),
+        xaxis="x2"
+    ))
+
+    interactive_fig.show()
+
+    interactive_plot_name = "interactive_loss_plot.html"
+    interactive_fig.write_html(interactive_plot_name)
+    print(f"Interactive plot saved as {interactive_plot_name}")
 
 
 def main(test_mode=False):
@@ -139,7 +155,7 @@ def main(test_mode=False):
     print(50*"-")
 
     file_path = "/Users/joshuajoseph/email_templates.json"
-    url = "https://raw.githubusercontent.com/jj9430/llm_project/refs/heads/main/email_templates.json"
+    url = "https://raw.githubusercontent.com/jj9430/llm_project/refs/heads/main/email_dataset.json"
     data = download_and_load_file(file_path, url)
     print("Number of entries:", len(data))
     train_portion = int(len(data) * 0.85)
@@ -287,7 +303,7 @@ def main(test_mode=False):
 
         test_data[i]["model_response"] = response_text
 
-    test_data_path = "model_responses.json"
+    test_data_path = "instruction-data-with-response-standalone.json"
     with open(test_data_path, "w") as file:
         json.dump(test_data, file, indent=4)
     print(f"Responses saved as {test_data_path}")
