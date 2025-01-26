@@ -1,0 +1,368 @@
+[
+    {
+        "instruction": "Event post-registration reminder email template",
+        "input": "",
+        "output": "Hi [name], You've successfully registered for our upcoming event, [event name], on [event date]. This is just a reminder to save the date and make sure you're ready to join us. If you need any further details or assistance before the event, please reach out. We look forward to seeing you there!",
+        "model_response": "Hi [name], Just a quick reminder that your event registration for [event name] has been successfully processed. If you ever need to reschedule or have any questions, don't hesitate to reach out."
+    },
+    {
+        "instruction": "Product usage tips email template",
+        "input": "",
+        "output": "Hi [name], We want to make sure you get the most out of your new [product name]. Here are a few tips and tricks to help you maximize its potential: \n- Tip 1: [tip description] \n- Tip 2: [tip description] \n- Tip 3: [tip description] \nWe hope these tips help! If you have any questions, don't hesitate to ask.",
+        "model_response": "Hi [name], We wanted to share some tips and tricks for using your [product name] effectively. Use these tips to maximize your results: [usage tips]."
+    },
+    {
+        "instruction": "Free shipping offer email template",
+        "input": "",
+        "output": "Hi [name], We've got a special treat for you! Enjoy free shipping on your next order of [minimum order amount] or more. Use code [FREESHIP] at checkout to redeem. Don't miss out\u2014this offer is only valid until [expiration date]. Happy shopping!",
+        "model_response": "Hi [name], We're offering a free shipping offer on your order! Simply use the code [free shipping code] at checkout. You'll receive your free shipping within 24 hours. We hope to see you soon!"
+    },
+    {
+        "instruction": "Survey completion reward email template",
+        "input": "",
+        "output": "Hi [name], Thank you for completing our survey! As a token of our appreciation, you've earned [reward]. You can redeem it on your next purchase by using the code [REWARD CODE] at checkout. We value your feedback and look forward to continuing to improve your experience!",
+        "model_response": "Hi [name], Thank you for completing our survey! Your feedback is invaluable to us and will help us improve our services. To get your feedback, simply click on the button below: [survey link]."
+    },
+    {
+        "instruction": "Welcome email template for new subscribers",
+        "input": "",
+        "output": "Hi [name], Welcome to [company name]! We're excited to have you on board. To get started, here's a quick guide to help you make the most out of your experience: [link]. If you have any questions, feel free to reach out. We're here to help!",
+        "model_response": "Hi [name], Welcome to [brand name]! We're thrilled to have you on board. To get started, we're offering you [discount %] off your first purchase. Use code [discount code] at checkout. We hope to see you soon!"
+    },
+    {
+        "instruction": "Password reset email template",
+        "input": "",
+        "output": "Hi [name], We've received a request to reset your password for your [company name] account. To reset your password, click the link below: [reset link]. If you didn't request this change, please ignore this message, and your password will remain unchanged.",
+        "model_response": "Hi [name], We wanted to reset your password for good. To do this, simply click the link below and enter your password: [password reset link]. If you need any assistance, feel free to reach out."
+    },
+    {
+        "instruction": "Order confirmation email template",
+        "input": "",
+        "output": "Hi [name], Thank you for your order! We've received your purchase of [product name(s)]. Your order will be shipped to [shipping address] and should arrive by [estimated delivery date]. If you have any questions or concerns, feel free to reach out to our support team at [support email].",
+        "model_response": "Hi [name], Your order of [product name] has been shipped! You can track your package here: [tracking link]. If you have any questions or need assistance, don't hesitate to reach out."
+    },
+    {
+        "instruction": "Abandoned cart reminder email template",
+        "input": "",
+        "output": "Hi [name], We noticed you left some items in your cart. Don't miss out on your [product name(s)]! If you'd like to complete your purchase, simply click here: [cart link]. If you have any questions, we're happy to assist you.",
+        "model_response": "Hi [name], It looks like you left some items in your cart. Don't worry, they're still waiting for you! Complete your purchase now and get [percentage] off your order. Click here to complete your order: [cart link]."
+    },
+    {
+        "instruction": "Thank you for purchase email template",
+        "input": "",
+        "output": "Hi [name], Thanks for your recent purchase of [product name]! We appreciate your support. If you need assistance or have any questions, feel free to reach out. We're here to help!",
+        "model_response": "Hi [name], Thank you for your recent purchase of [product name]! We hope you're enjoying it! If you have any questions or need assistance, don't hesitate to reach out."
+    },
+    {
+        "instruction": "Service outage notification email template",
+        "input": "",
+        "output": "Hi [name], We wanted to inform you that our service is currently experiencing an outage. Our team is working hard to resolve the issue and restore full functionality as soon as possible. We apologize for any inconvenience and will keep you updated on our progress.",
+        "model_response": "Hi [name], We wanted to let you know that your [service] has been temporarily unavailable due to [reason]. We apologize for the inconvenience and appreciate your patience. We will have more information available soon."
+    },
+    {
+        "instruction": "Customer feedback request email template",
+        "input": "",
+        "output": "Hi [name], We value your opinion and would love to hear your feedback on your recent experience with [product/service]. Your input helps us improve, and it only takes a few minutes to complete our survey: [survey link]. Thank you for helping us make [company name] even better!",
+        "model_response": "Hi [name], We hope you're enjoying your [product/service]. We'd love to hear your thoughts! Your feedback helps us improve and improve our products and services. Please take a moment to complete our survey: [survey link]."
+    },
+    {
+        "instruction": "Event invitation email template",
+        "input": "",
+        "output": "Hi [name], You're invited to our upcoming [event name] on [event date] at [event location]. It will be a great opportunity to [event benefit or activity]. To RSVP, click here: [RSVP link]. We hope to see you there!",
+        "model_response": "Hi [name], We're hosting an exciting event for [event name] and would love for you to join us! We're looking forward to seeing you there! If you need any details or have any questions, feel free to reach out."
+    },
+    {
+        "instruction": "Subscription renewal reminder email template",
+        "input": "",
+        "output": "Hi [name], Just a reminder that your subscription to [service/product] is about to renew on [renewal date]. If you'd like to make any changes to your plan, you can do so by logging into your account: [account link]. Thank you for being a valued member of [company name]!",
+        "model_response": "Hi [name], Just a friendly reminder that your subscription to [service] is set to renew on [renewal date]. To make sure you don't miss out, please make sure your payment details are up to date. If you have any questions or need assistance, don't hesitate to reach out."
+    },
+    {
+        "instruction": "Thank you for your inquiry email template",
+        "input": "",
+        "output": "Hi [name], Thank you for reaching out to us! We've received your inquiry about [inquiry subject] and one of our team members will get back to you shortly. In the meantime, feel free to explore our resources here: [link]. We appreciate your interest in [company name]!",
+        "model_response": "Hi [name], Thank you for reaching out! We're happy to help! We're here to help with any issues you may have. If you need any assistance, feel free to reach out. We're here to help!"
+    },
+    {
+        "instruction": "Account deactivation email template",
+        "input": "",
+        "output": "Hi [name], We're sorry to see you go! Your account with [company name] has been successfully deactivated. If you change your mind or need assistance in the future, don't hesitate to reach out. Thank you for being with us!",
+        "model_response": "Hi [name], We've deactivated your account. To access your account, please log in to your account on the website. If you're not logged in, please contact us."
+    },
+    {
+        "instruction": "Birthday email template for customers",
+        "input": "",
+        "output": "Hi [name], Happy Birthday from all of us at [company name]! To celebrate, we'd like to offer you a special gift: [gift offer]. Use code [code] at checkout to redeem it. We hope you have an amazing day!",
+        "model_response": "who have purchased a product\n\n\nHi [name], Happy birthday from all of us at [brand name]! To celebrate, enjoy [discount %] off your next purchase. Use code [discount code] at checkout. Enjoy your day!"
+    },
+    {
+        "instruction": "Product review request email template",
+        "input": "",
+        "output": "Hi [name], We hope you're enjoying your new [product name]! We'd love to hear your thoughts on it. Would you mind taking a moment to leave a review? Your feedback helps others and helps us improve. Leave your review here: [review link]. Thank you!",
+        "model_response": "Hi [name], We hope you're enjoying your [product name]! We'd love to hear your thoughts and feedback. Please take a moment to leave a review on our website: [review link]. Your review helps us continue to improve and help others find the product they're looking for."
+    },
+    {
+        "instruction": "Delivery delay notification email template",
+        "input": "",
+        "output": "Hi [name], We wanted to let you know that your [product name] delivery has been delayed due to [reason for delay]. We're working hard to get it to you as soon as possible and expect it to arrive by [new delivery date]. We apologize for the inconvenience and appreciate your patience.",
+        "model_response": "Hi [name], We wanted to let you know that your delivery of [product name] has been delayed. We apologize for the inconvenience and appreciate your patience. We will notify you when your package is on its way. If you have any questions or concerns, please don't hesitate to reach out."
+    },
+    {
+        "instruction": "Out-of-stock notification email template",
+        "input": "",
+        "output": "Hi [name], Unfortunately, the item(s) you were interested in, [product name(s)], are currently out of stock. We understand this is disappointing and are working to restock them as soon as possible. We'll notify you when they're available again. Thank you for your understanding!",
+        "model_response": "Hi [name], We noticed that your [product name] is selling out quickly. We understand that this is a frustrating time, and we apologize for the inconvenience. We understand that you're probably busy, and we'll send you an update when your order ships. If you need any assistance, feel free to reach out."
+    },
+    {
+        "instruction": "Referral program invitation email template",
+        "input": "",
+        "output": "Hi [name], We're excited to invite you to join our referral program! For every friend you refer who makes a purchase, you'll both receive [reward details]. To start referring, click here: [referral link]. Thank you for helping us grow the [company name] community!",
+        "model_response": "Hi [name], We're excited to invite you to our referral program! As a member, you'll earn [reward] for every friend you refer. Share your unique referral link here: [referral link]."
+    },
+    {
+        "instruction": "Product shipping confirmation email template",
+        "input": "",
+        "output": "Hi [name], Your [product name] has been shipped and is on its way to you! You can track your order using the following tracking number: [tracking number]. If you have any questions or concerns, feel free to contact us!",
+        "model_response": "Hi [name], Your order has been shipped! You can track your package here: [tracking link]. If you have any questions or need assistance, don't hesitate to reach out."
+    },
+    {
+        "instruction": "Product return confirmation email template",
+        "input": "",
+        "output": "Hi [name], We've received your return request for [product name]. Your return is being processed, and we'll notify you once the refund has been issued. If you need further assistance, don't hesitate to contact us.",
+        "model_response": "Hi [name], Your product(s) have been successfully returned to us. We will send you a refund for the full purchase price. If you have any questions or concerns, please don't hesitate to reach out."
+    },
+    {
+        "instruction": "Service upgrade announcement email template",
+        "input": "",
+        "output": "Hi [name], We're excited to announce that [service/product] has received an upgrade! You'll now have access to [new feature/benefit]. To start enjoying the new features, just log in to your account. Thank you for being a valued customer of [company name]!",
+        "model_response": "Hi [name], We've made some exciting improvements to your service. To ensure that your experience is the best possible, we're offering you an upgrade. To make this upgrade, please click the button below: [service upgrade link]."
+    },
+    {
+        "instruction": "Holiday greetings email template",
+        "input": "",
+        "output": "Hi [name], Wishing you a joyful and peaceful holiday season! We're grateful for your continued support and look forward to serving you in the coming year. Stay safe and enjoy the festivities!",
+        "model_response": "Hi [name], Happy [holiday name]! We hope you're enjoying your holiday season! To help you celebrate, we're offering you [special offer] off your order. Use code [code] at checkout to redeem. Enjoy your holiday season!"
+    },
+    {
+        "instruction": "Product launch announcement email template",
+        "input": "",
+        "output": "Hi [name], We're thrilled to announce the launch of our newest product, [product name]! It's designed to help you [benefit]. To learn more or make a purchase, click here: [product link]. We hope you're as excited as we are!",
+        "model_response": "Hi [name], We're launching a new product! It's designed to help you [solve problem or achieve goal]. Check it out here: [product link]."
+    },
+    {
+        "instruction": "New feature announcement email template",
+        "input": "",
+        "output": "Hi [name], We're excited to announce a brand-new feature in [product/service]\u2014[feature name]! This will help you [specific benefit or improvement]. To get started, simply [instruction]. We hope you enjoy the new addition!",
+        "model_response": "Hi [name], We've made some exciting updates to [product name]! Now with [new features], it's even better than before. Check it out here: [link]."
+    },
+    {
+        "instruction": "Security alert email template",
+        "input": "",
+        "output": "Hi [name], We've noticed some unusual activity on your [company name] account. For your security, we recommend that you change your password immediately. To do so, click here: [password reset link]. If you did not initiate this activity, please contact our support team right away.",
+        "model_response": "Hi [name], We noticed that you've left your password in plain text on your [password protected] account. To make sure everything is secure, we've activated a new password reset link: [password reset link]. If you ever need to change your password, you can do so by clicking here: [password reset link]. If you have any questions or concerns, don't hesitate to reach out."
+    },
+    {
+        "instruction": "Event registration confirmation email template",
+        "input": "",
+        "output": "Hi [name], Thank you for registering for [event name]! Your registration is confirmed, and we're excited to see you on [event date]. For more details about the event, visit [event link]. We'll send you additional information as the event date approaches!",
+        "model_response": "Hi [name], Your event registration for [event name] has been successfully processed. You'll receive an email with a link to your event registration. If you have any questions or need assistance, feel free to reach out."
+    },
+    {
+        "instruction": "Anniversary celebration email template",
+        "input": "",
+        "output": "Hi [name], Happy [X]-year anniversary with [company name]! We want to celebrate this special milestone with you. As a thank you, enjoy [offer details]. We appreciate your loyalty and look forward to continuing our journey together!",
+        "model_response": "Hi [name], Happy [anniversary]! We're so excited to celebrate your birthday with you! To celebrate, we're offering you [special offer] off your next purchase. Use code [code] at checkout. Enjoy your anniversary with us!"
+    },
+    {
+        "instruction": "Important account update email template",
+        "input": "",
+        "output": "Hi [name], We wanted to notify you of an important update regarding your [company name] account. Effective [date], [description of update]. For more details, please visit [link]. If you have any questions, feel free to reach out to us.",
+        "model_response": "Hi [name], We wanted to update you on your account status. Your account information has been updated and you'll be receiving a new email with instructions on how to update your information. If you have any questions or need assistance, don't hesitate to reach out."
+    },
+    {
+        "instruction": "Survey invitation email template",
+        "input": "",
+        "output": "Hi [name], We value your feedback and would love to hear about your experience with [product/service]. Please take a few moments to complete our quick survey: [survey link]. Your input is important to us!",
+        "model_response": "Hi [name], We hope you're doing well! We'd love to hear your thoughts on your recent experience with [company name]. Your feedback is incredibly valuable to us, and we'd love to hear it. Could you take a few minutes to complete our survey? Your feedback is incredibly valuable to us, and we'd love to hear it. [Survey link]."
+    },
+    {
+        "instruction": "Subscription cancellation confirmation email template",
+        "input": "",
+        "output": "Hi [name], We're sorry to see you go! Your subscription to [service/product] has been successfully cancelled. If you change your mind or need assistance in the future, don't hesitate to reach out to us. We'd love to have you back!",
+        "model_response": "Hi [name], We've successfully processed your cancellation of your subscription to [service name] . Your account will be credited with the amount of the refund you requested. If you have any questions or need assistance, feel free to reach out."
+    },
+    {
+        "instruction": "Referral program thank you email template",
+        "input": "",
+        "output": "Hi [name], Thank you for referring [referral name] to [company name]! As a token of our appreciation, you've earned [reward details]. We're thrilled to have you as part of our community!",
+        "model_response": "Hi [name], Thank you for referring your friends to [brand name]! As a thank you, we're giving you [reward] for every friend you refer. Share the love!"
+    },
+    {
+        "instruction": "Seasonal promotion email template",
+        "input": "",
+        "output": "Hi [name], The season of [season] is here, and we're celebrating with an exclusive offer just for you! Get [discount or promotion details] on [product/service] by using code [code] at checkout. Don't miss out\u2014this offer ends on [expiration date]!",
+        "model_response": "Hi [name], We're offering a special [season] discount on your next purchase! Use code [promo code] at checkout to save [discount %] on your order. Shop now: [link]."
+    },
+    {
+        "instruction": "Customer support follow-up email template",
+        "input": "",
+        "output": "Hi [name], I just wanted to follow up on your recent support request regarding [issue]. We hope that the solution provided was helpful. If you have any additional questions or concerns, please feel free to reach out!",
+        "model_response": "Hi [name], We wanted to follow up on your issue and see if there's anything we can do to help. If there's anything we can do to improve your experience, please let us know. We're always here to help."
+    },
+    {
+        "instruction": "Product recall notification email template",
+        "input": "",
+        "output": "Hi [name], We regret to inform you that [product name] has been recalled due to [reason]. For your safety, please [return/cease using product instructions]. If you have any questions or need assistance with a return, please contact us at [support contact].",
+        "model_response": "Hi [name], We wanted to let you know that your [product name] is currently undergoing a product recall. If you purchased it before the recall date, you'll receive an update with instructions on how to return it. If you purchased it after the recall date, you'll receive a full refund. If you have any questions or concerns, please don't hesitate to reach out."
+    },
+    {
+        "instruction": "Holiday sale announcement email template",
+        "input": "",
+        "output": "Hi [name], The [holiday] season is upon us, and we're celebrating with huge savings! Enjoy up to [X]% off on [products/services] until [sale end date]. Shop now and get your holiday shopping done early!",
+        "model_response": "Hi [name], The [holiday] sale is here! Get up to [percentage] off on your favorite items. Don't miss out\u2014shop now: [link]."
+    },
+    {
+        "instruction": "Customer win-back email template",
+        "input": "",
+        "output": "Hi [name], We miss you at [company name]! We noticed you haven't been active recently and wanted to check in. As a special incentive to come back, we're offering [offer details]. We'd love to have you back and continue helping you with [service/product].",
+        "model_response": "Hi [name], We wanted to let you know that your order has been successfully returned. We apologize for the inconvenience and appreciate your understanding. If you have any questions or concerns, please don't hesitate to reach out. We will do our best to resolve the issue as quickly as possible. Thank you for your understanding!"
+    },
+    {
+        "instruction": "VIP customer appreciation email template",
+        "input": "",
+        "output": "Hi [name], As one of our VIP customers, we want to thank you for your continued support. To show our appreciation, enjoy [exclusive offer or benefit]. We value your loyalty and look forward to serving you in the future!",
+        "model_response": "Hi [name], Thank you for being a valued VIP customer! We appreciate your support and look forward to serving you again in the future. To show our appreciation, we're offering you a special [percentage] discount on your next purchase. Use code [code] at checkout to redeem."
+    },
+    {
+        "instruction": "New subscription plan announcement email template",
+        "input": "",
+        "output": "Hi [name], We're excited to introduce a brand new subscription plan designed to give you even more value: [plan name]. With this plan, you'll enjoy [benefit/feature details]. To learn more or switch plans, click here: [link].",
+        "model_response": "Hi [name], We've just launched a new subscription plan that's designed to meet your needs. You'll get [new plan details] and start enjoying [new features]. Check it out here: [link]."
+    },
+    {
+        "instruction": "Product recommendation email template",
+        "input": "",
+        "output": "Hi [name], Based on your recent purchase of [product name], we thought you might also like [recommended product]. It pairs perfectly with what you already own, and we're offering [discount or promotion details] for a limited time!",
+        "model_response": "Hi [name], Based on your recent purchase of [product name], we thought you might also like [related product]. It's perfect for [specific need]. Check it out here: [product link]."
+    },
+    {
+        "instruction": "Shipping update email template",
+        "input": "",
+        "output": "Hi [name], We wanted to update you on the status of your order. Your [product name] is now in transit and will be delivered by [delivery date]. You can track your order here: [tracking link]. Thank you for choosing [company name]!",
+        "model_response": "Hi [name], We noticed that your order has shipped and are waiting to receive it. We apologize for the delay and appreciate your patience. We will send you an update with the tracking number and the estimated delivery date. If you have any questions or concerns, please don't hesitate to reach out."
+    },
+    {
+        "instruction": "Unsubscribe confirmation email template",
+        "input": "",
+        "output": "Hi [name], We've processed your request to unsubscribe from our mailing list. We're sorry to see you go! If you ever want to rejoin, simply [instructions]. Thank you for being part of our community.",
+        "model_response": "Hi [name], Thank you for unsubscribing from our mailing list. We regret to inform you that your unsubscription has been effective. If you wish to continue receiving updates on our progress, please follow the instructions below to update your subscription: [link]."
+    },
+    {
+        "instruction": "Pre-order announcement email template",
+        "input": "",
+        "output": "Hi [name], We're excited to announce that [product name] is now available for pre-order! Be one of the first to get your hands on it by pre-ordering today: [pre-order link]. Act fast\u2014quantities are limited!",
+        "model_response": "Hi [name], We're excited to announce that Pre-Order is now live! Get your copy of [product name] before it's released! Pre-order now and enjoy [discount %] off your order. Pre-order here: [link]."
+    },
+    {
+        "instruction": "Customer loyalty program invitation email template",
+        "input": "",
+        "output": "Hi [name], We'd like to invite you to join our [loyalty program name] and start earning rewards for every purchase! Sign up today and enjoy benefits like [benefits]. To get started, click here: [sign-up link].",
+        "model_response": "Hi [name], We're offering you exclusive early access to our loyalty program! Get up to [percentage] off your next purchase. Use code [code] at checkout."
+    },
+    {
+        "instruction": "Payment failure notification email template",
+        "input": "",
+        "output": "Hi [name], We encountered an issue while processing your recent payment for [service/product]. To continue enjoying uninterrupted service, please update your payment details here: [payment update link]. If you need assistance, please don't hesitate to reach out.",
+        "model_response": "Hi [name], We wanted to let you know that your payment for [service] has been successfully processed. We appreciate your business and appreciate your patience. If you have any questions or concerns, please don't hesitate to reach out."
+    },
+    {
+        "instruction": "Welcome back email template for re-engaged users",
+        "input": "",
+        "output": "Hi [name], Welcome back to [company name]! We're so glad to see you again. To help you get started, we've prepared some great resources here: [link]. If you need any assistance, just let us know!",
+        "model_response": "Hi [name], Welcome back! We hope you're enjoying your [service/product]. To celebrate, we're offering you [discount %] off your next purchase. Use code [discount code] at checkout."
+    },
+    {
+        "instruction": "Limited-time offer reminder email template",
+        "input": "",
+        "output": "Hi [name], Just a friendly reminder that our limited-time offer of [offer details] ends soon! Don't miss out\u2014take advantage of this offer before it expires on [expiration date]. [link to offer].",
+        "model_response": "Hi [name], Don't forget to take advantage of our special offer! Get [discount %] off your next order when you shop now. Click here to shop: [link]."
+    },
+    {
+        "instruction": "Personalized discount offer email template",
+        "input": "",
+        "output": "Hi [name], As a valued customer, we want to offer you a special discount of [X]% off your next purchase. Simply use code [code] at checkout to redeem your offer. We appreciate your continued support and hope you take advantage of this exclusive deal!",
+        "model_response": "Hi [name], We're offering a special discount on your next order! Use code [code] at checkout to save [discount %] off your order. Don't wait too long\u2014this offer is only valid for the duration of your discount. Don't miss out\u2014use code [code] at checkout to save even more."
+    },
+    {
+        "instruction": "Product usage tips email template",
+        "input": "",
+        "output": "Hi [name], We hope you're enjoying your [product name]! To help you make the most out of it, here are some expert tips and tricks: [list of tips]. We hope these help enhance your experience!",
+        "model_response": "Hi [name], We wanted to share some tips and tricks for using your [product name] effectively. Use these tips to maximize your results: [usage tips]."
+    },
+    {
+        "instruction": "Account verification email template",
+        "input": "",
+        "output": "Hi [name], Please verify your email address to complete your registration with [company name]. Click the link below to verify: [verification link]. If you didn't create an account with us, please ignore this message.",
+        "model_response": "Hi [name], We've verified your account and you're now eligible to make [product/service] purchases. To complete your purchase, please verify your email address by clicking on the link below: [Verification link]. If you need any assistance, feel free to reach out."
+    },
+    {
+        "instruction": "Event reminder email template",
+        "input": "",
+        "output": "Hi [name], Just a quick reminder that [event name] is coming up on [event date]! We can't wait to see you there. For more details, click here: [event link].",
+        "model_response": "Hi [name], Just a quick reminder that [event name] is happening soon! Don't forget to bring your ID!"
+    },
+    {
+        "instruction": "Account activity report email template",
+        "input": "",
+        "output": "Hi [name], Here's a summary of your recent activity with [company name]: [activity summary]. If you have any questions or notice anything unusual, feel free to reach out to our support team.",
+        "model_response": "Hi [name], We noticed you've been inactive for a while. To help you get back on track, we've created an activity report that details your recent activities. Click here to access the report: [report link]."
+    },
+    {
+        "instruction": "Re-engagement email template for inactive users",
+        "input": "",
+        "output": "Hi [name], We've missed you! It's been a while since you last engaged with [company name], and we'd love to have you back. As a thank you for rejoining, we're offering [offer details]. Come back and see what's new!",
+        "model_response": "Hi [name], It's been a while since we've seen you! We miss having you around. To celebrate, here's a special [reward] to thank you for being with us. Take a look at your stats and see how many minutes you've been using your account: [link]."
+    },
+    {
+        "instruction": "Personalized thank you email for a large purchase",
+        "input": "",
+        "output": "Hi [name], Thank you so much for your recent purchase of [product(s)]. We truly appreciate your support. If you have any questions or need assistance with anything, don't hesitate to reach out to our team!",
+        "model_response": "Dear {name}, I wanted to personally thank you for your recent purchase of {product name}! It's been a pleasure shopping with you. I truly appreciate your business and your loyalty. If there's anything I can do to help, please don't hesitate to reach out. Best regards, {Your Name}"
+    },
+    {
+        "instruction": "New user registration confirmation email template",
+        "input": "",
+        "output": "Hi [name], Welcome to [company name]! Your registration was successful. To complete your profile, please click here: [profile link]. If you need any help getting started, we're here to assist you!",
+        "model_response": "Hi [name], Thank you for registering with us! We're happy to inform you that your account has been successfully activated. If you ever need to update your password, you can do so here: [password reset link]. If you have any questions or need assistance, feel free to reach out."
+    },
+    {
+        "instruction": "Service subscription cancellation email template",
+        "input": "",
+        "output": "Hi [name], We're sorry to hear that you've decided to cancel your subscription to [service name]. We'd love to know if there's anything we could've done better. If you change your mind, you're always welcome back!",
+        "model_response": "Hi [name], We regret to inform you that your subscription to [service name] has been successfully canceled. If you wish to resubscribe, please contact us."
+    },
+    {
+        "instruction": "Product shipping delay notification email template",
+        "input": "",
+        "output": "Hi [name], Unfortunately, there has been a delay in shipping your [product name]. We're working to get it to you as soon as possible and will notify you once it's on its way. We apologize for any inconvenience caused and appreciate your patience.",
+        "model_response": "Hi [name], We wanted to let you know that your order for [product name] is currently delayed. We apologize for the inconvenience and appreciate your patience. We will notify you as soon as your order ships. Thank you for your understanding!"
+    },
+    {
+        "instruction": "Subscription pause confirmation email template",
+        "input": "",
+        "output": "Hi [name], We've successfully paused your subscription to [service/product]. Your subscription will resume on [resumption date]. If you need any assistance or have questions, feel free to reach out!",
+        "model_response": "Hi [name], We noticed you haven't been using your subscription to [service name] . We're sorry to see you go, but we're unable to continue providing you with [service benefit]. If you ever change your mind, we'll be here to help."
+    },
+    {
+        "instruction": "Custom order update email template",
+        "input": "",
+        "output": "Hi [name], We wanted to update you on the status of your custom order for [product]. We're currently [order status update], and we'll notify you once it's ready to ship. Thank you for your patience!",
+        "model_response": "Hi [name], We wanted to update you on the status of your custom order. We've received your feedback and are happy to inform you that your order has been successfully processed. We're currently working on a delivery date and will let you know once we have the details. If you have any questions or need assistance, don't hesitate to reach out."
+    },
+    {
+        "instruction": "Product recommendation based on browsing history email template",
+        "input": "",
+        "output": "Hi [name], Based on your recent browsing of [product name(s)], we thought you might like these similar items: [recommended product names]. Check them out here: [link]. We think you'll love them!",
+        "model_response": "Hi [name], We noticed you recently visited [product name] and wanted to recommend it to you. Based on your recent browsing history, we think you might enjoy [product/service]. To help you decide, we've put together a free trial of [service/product]. Click here to start your trial: [link]."
+    }
+]
