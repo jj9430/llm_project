@@ -1,16 +1,25 @@
-# Email Generator LLM Project
+# LLM Email Generator
 
-I made this LLM project using Pytorch after reading Build a Large Language Model (From Scratch) by Sebastian Raschka. I coded the transformer architecture and finetuned the project based on my custom email dataset. The LLM trains on the dataset and generates responses to json file showing the model compared to the dataset. I added features like an interactive graph and tensorboard showing the training loss and validation loss over epochs. The finetuned model generates accurate and contextually relevant email responses.  
+This project implements a Large Language Model (LLM) using PyTorch, inspired by Sebastian Raschka's "Build a Large Language Model (From Scratch)". The model is fine-tuned on a custom email dataset to generate contextually relevant email responses.
 
 
-Files
+### Features
+-  transformer architecture implementation
+- Fine-tuning on a custom email dataset
+- Interactive visualization of model performance
+- TensorBoard integration for loss tracking
+- JSON output of model-generated responses compared to the dataset
 
-[Interactive Graph](https://jj9430.github.io/llm_project/interactive_loss_plot.html)
-
+### Dataset and Responses
 [Email Dataset](https://github.com/jj9430/llm_project/blob/main/email_dataset.json)
+
+[Model Responses](https://github.com/jj9430/llm_project/blob/main/model_responses.json)
+
+### Visual Graphs
+[Interactive Graph](https://jj9430.github.io/llm_project/interactive_loss_plot.html)
 
 [Losses Plot](https://github.com/jj9430/llm_project/blob/main/losses_plot.pdf)
 
-[Model Responses](https://github.com/jj9430/llm_project/blob/main/model_responses.json)
+
 
 
