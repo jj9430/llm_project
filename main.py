@@ -119,7 +119,7 @@ def plot_losses(epochs_seen, tokens_seen, train_losses, val_losses):
     ax2.set_xlabel("Tokens seen")
 
     fig.tight_layout()
-    plot_name = "loss-plot-standalone.pdf"
+    plot_name = "losses_plot.pdf"
     print(f"Plot saved as {plot_name}")
     plt.savefig(plot_name)
 
@@ -287,7 +287,7 @@ def main(test_mode=False):
 
         test_data[i]["model_response"] = response_text
 
-    test_data_path = "instruction-data-with-response-standalone.json"
+    test_data_path = "model_responses.json"
     with open(test_data_path, "w") as file:
         json.dump(test_data, file, indent=4)
     print(f"Responses saved as {test_data_path}")
